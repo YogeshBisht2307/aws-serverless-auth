@@ -1,0 +1,60 @@
+// signup response
+
+{
+
+    "UserConfirmed":false,
+ 
+    "CodeDeliveryDetails":{
+ 
+       "Destination":"y***@g***",
+ 
+       "DeliveryMedium":"EMAIL",
+ 
+       "AttributeName":"email"
+ 
+    },
+ 
+    "UserSub":"74badfde-6f52-463f-b178-3e710a608523",
+ 
+    "ResponseMetadata":{
+ 
+       "RequestId":"d9e150cc-b04f-4545-b7d7-0337b810a351",
+ 
+       "HTTPStatusCode":200,
+ 
+       "HTTPHeaders":{
+ 
+          "date":"Mon, 16 May 2022 19:30:35 GMT",
+ 
+          "content-type":"application/x-amz-json-1.1",
+ 
+          "content-length":"171",
+ 
+          "connection":"keep-alive",
+ 
+          "x-amzn-requestid":"d9e150cc-b04f-4545-b7d7-0337b810a351"
+ 
+       },
+ 
+       "RetryAttempts":0
+ 
+    }
+ 
+ }
+ 
+//  confirmation code response
+
+ {
+   "ResponseMetadata": {
+     "RequestId": "e8555b1b-451c-4d9a-94f8-5fbbfada55f6",
+     "HTTPStatusCode": 200,
+     "HTTPHeaders": {
+       "date": "Mon, 16 May 2022 19:39:21 GMT",
+       "content-type": "application/x-amz-json-1.1",
+       "content-length": "2",
+       "connection": "keep-alive",
+       "x-amzn-requestid": "e8555b1b-451c-4d9a-94f8-5fbbfada55f6"
+     },
+     "RetryAttempts": 0
+   }
+ }

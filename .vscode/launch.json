@@ -1,0 +1,94 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication.user_auth_request_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication.user_auth_request_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication.user_auth_request_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication.user_auth_request_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication._auth_user_login_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication._auth_user_login_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication.user_auth_request_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication.user_auth_request_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication.user_auth_request_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication.user_auth_request_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "WebpackServerlessUserAuthentication:cognito_user_authentication.user_auth_request_handler (python3.8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/serverless_lambda/WebpackServerlessUserAuthentication",
+                "lambdaHandler": "cognito_user_authentication.user_auth_request_handler"
+            },
+            "lambda": {
+                "runtime": "python3.8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
